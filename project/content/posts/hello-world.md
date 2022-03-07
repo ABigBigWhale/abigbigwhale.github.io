@@ -1,11 +1,11 @@
 +++
-title = "Hello World"
+title = "Hello, World!"
 date = "2022-03-06T20:24:09-08:00"
 cover = ""
 showFullContent = true
 readingTime = false
 +++
 
-Not sure what I'll dump in here – kind of like a customized LinkedIn page?
+I'll take a roasted oolong tea latte with boba, no sugar and less ice, please.
 
-Generated this little website with [Hugo](https://gohugo.io/) so I don't overscope and ditch things halfway. We'll see how the content keeps up though lol.
+Site generated with [Hugo](https://gohugo.io/) using theme [Terminal](https://themes.gohugo.io/themes/hugo-theme-terminal) by [panr](https://twitter.com/panr).
