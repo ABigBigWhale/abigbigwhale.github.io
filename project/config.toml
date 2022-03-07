@@ -1,4 +1,4 @@
-baseURL = 'http://abigbigwhale.github.io/'
+baseURL = 'https://abigbigwhale.github.io/'
 languageCode = 'en-us'
 title = 'Hao'
 theme = "terminal"
