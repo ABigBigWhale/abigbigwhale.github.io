@@ -2,7 +2,7 @@
 title = "Hello World"
 date = "2022-03-06T20:24:09-08:00"
 cover = ""
-showFullContent = false
+showFullContent = true
 readingTime = false
 +++
 

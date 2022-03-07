@@ -8,8 +8,7 @@ theme = "terminal"
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+  themeColor = "black"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -52,6 +51,8 @@ theme = "terminal"
   # can be overridden in a page's front-matter
   # TocTitle = "Table of Contents" # default
 
+[params.logo]
+  logoText = "皓|hào"
 
 [params.twitter]
   # set Twitter handles for Twitter cards
@@ -59,33 +60,3 @@ theme = "terminal"
   # do not include @
   creator = ""
   site = ""
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Hao"
-    subtitle = "皓"
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-
-    [languages.en.params.logo]
-      logoText = "Terminal"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
