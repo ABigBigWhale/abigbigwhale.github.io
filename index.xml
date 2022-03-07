@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hao</title>
-    <link>http://abigbigwhale.github.io/</link>
+    <link>https://abigbigwhale.github.io/</link>
     <description>Recent content on Hao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Mar 2022 20:24:09 -0800</lastBuildDate><atom:link href="http://abigbigwhale.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 20:24:09 -0800</lastBuildDate><atom:link href="https://abigbigwhale.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://abigbigwhale.github.io/posts/hello-world/</link>
+      <link>https://abigbigwhale.github.io/posts/hello-world/</link>
       <pubDate>Sun, 06 Mar 2022 20:24:09 -0800</pubDate>
       
-      <guid>http://abigbigwhale.github.io/posts/hello-world/</guid>
+      <guid>https://abigbigwhale.github.io/posts/hello-world/</guid>
       <description>Not sure what I&amp;rsquo;ll dump in here – kind of like a customized LinkedIn page?
 Generated this little website with Hugo so I don&amp;rsquo;t overscope and ditch things halfway. We&amp;rsquo;ll see how the content keeps up though lol.</description>
       <content>&lt;p&gt;Not sure what I&amp;rsquo;ll dump in here – kind of like a customized LinkedIn page?&lt;/p&gt;
