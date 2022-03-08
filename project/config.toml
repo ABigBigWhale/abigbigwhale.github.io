@@ -10,6 +10,8 @@ theme = "terminal"
 
   themeColor = "black"
 
+  favicon = "img/favicon.ico"
+
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
 
