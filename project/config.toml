@@ -1,4 +1,4 @@
-baseURL = 'https://abigbigwhale.github.io/'
+baseURL = 'https://haoliu.dev/'
 languageCode = 'en-us'
 title = 'Hao'
 theme = "terminal"
@@ -62,3 +62,19 @@ theme = "terminal"
   # do not include @
   creator = ""
   site = ""
+
+[languages]
+  [languages.en]
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "contact"
+        url = "/contact"
