@@ -1,0 +1,44 @@
+@import url("header.css");
+@import url("post.css");
+
+:root {
+  --accent: #81DFE4;
+  --primary: #81DFE4;
+  --secondary: #5D737E;
+  --foreground: #EBFEFF;
+  --background: black;
+  --color: #EBFEFF;
+  --border-color: rgba(255, 255, 255, .1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+  font-size: 1rem;
+  line-height: 1.54;
+  letter-spacing: -0.02em;
+  background-color: var(--background);
+  color: var(--color);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga", "tnum", "zero", "ss01", "locl";
+  font-variant-ligatures: contextual;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+
+  @media (--phone) {
+    font-size: 1rem;
+  }
+}
+
+.logo {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 800;
+  align-items: center;
+  text-decoration: none;
+  background: var(--color);
+  color: var(--background);
+  padding: 12px 12px;
+}

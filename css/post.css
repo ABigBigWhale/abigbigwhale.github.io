@@ -1,0 +1,11 @@
+.post-title {
+    border-bottom: 1px solid var(--secondary);
+}
+
+.post-meta {
+    color: var(--secondary);
+}
+
+.post-title::after {
+    border-bottom: none;
+}
