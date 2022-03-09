@@ -2,12 +2,12 @@
 @import url("post.css");
 
 :root {
-  --accent: #81DFE4;
-  --primary: #81DFE4;
-  --secondary: #5D737E;
-  --foreground: #EBFEFF;
+  --accent: #00d7d7;
+  --primary: #00d7d7;
+  --secondary: #005f5f;
+  --foreground: #d7ffff;
   --background: black;
-  --color: #EBFEFF;
+  --color: #d7ffff;
   --border-color: rgba(255, 255, 255, .1);
 }
 
