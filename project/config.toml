@@ -2,6 +2,7 @@ baseURL = 'https://haoliu.dev/'
 languageCode = 'en-us'
 title = 'Hao'
 theme = "terminal"
+publishDir = "../"
 
 [params]
   # dir name of your main content (default is `content/posts`).
