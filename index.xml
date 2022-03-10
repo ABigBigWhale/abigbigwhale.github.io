@@ -26,20 +26,49 @@
       
       <guid>https://haoliu.dev/posts/hello-world/</guid>
       <description>I&amp;rsquo;ll take a roasted oolong tea latte with boba, no sugar and less ice, please.
-Site generated with Hugo using theme Terminal by panr.</description>
+Site generated with Hugo using theme Terminal by panr .</description>
       <content>&lt;p&gt;I&amp;rsquo;ll take a roasted oolong tea latte with boba, no sugar and less ice, please.&lt;/p&gt;
-&lt;p&gt;Site generated with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; using theme &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-terminal&#34;&gt;Terminal&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/panr&#34;&gt;panr&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Site generated with 
+&lt;a href=https://gohugo.io/
+    
+    target=_blank rel=&#34;noopener noreferrer&#34;
+&gt;Hugo&lt;/a&gt;
+ using theme 
+&lt;a href=https://themes.gohugo.io/themes/hugo-theme-terminal
+    
+    target=_blank rel=&#34;noopener noreferrer&#34;
+&gt;Terminal&lt;/a&gt;
+ by 
+&lt;a href=https://twitter.com/panr
+    
+    target=_blank rel=&#34;noopener noreferrer&#34;
+&gt;panr&lt;/a&gt;
+.&lt;/p&gt;
 </content>
     </item>
     
     <item>
-      <title></title>
+      <title>Contact</title>
       <link>https://haoliu.dev/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://haoliu.dev/contact/</guid>
-      <description>email: under construction</description>
-      <content>&lt;p&gt;email: &lt;code&gt;under construction&lt;/code&gt;&lt;/p&gt;
+      <description> email: under construction linkedin: www.linkedin.com/in/haoliu-dev/   resume   </description>
+      <content>&lt;ul&gt;
+&lt;li&gt;email: &lt;code&gt;under construction&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;linkedin: 
+&lt;a href=https://www.linkedin.com/in/haoliu-dev/
+    
+    target=_blank rel=&#34;noopener noreferrer&#34;
+&gt;www.linkedin.com/in/haoliu-dev/&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=https://haoliu.dev/data/resume-hao-liu-2022.pdf
+    
+    target=_blank rel=&#34;noopener noreferrer&#34;
+&gt;resume&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
