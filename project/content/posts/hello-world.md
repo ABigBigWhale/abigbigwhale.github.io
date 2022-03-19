@@ -8,4 +8,4 @@ readingTime = false
 
 I'll take a roasted oolong tea latte with boba, no sugar and less ice, please.
 
-Site generated with [Hugo](https://gohugo.io/) using theme [Terminal](https://themes.gohugo.io/themes/hugo-theme-terminal) by [panr](https://twitter.com/panr).
+Site generated with [Hugo](https://gohugo.io/) based on theme [Terminal](https://themes.gohugo.io/themes/hugo-theme-terminal) by [panr](https://twitter.com/panr).

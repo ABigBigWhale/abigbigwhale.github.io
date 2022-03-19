@@ -15,14 +15,14 @@
       
       <guid>https://haoliu.dev/posts/hello-world/</guid>
       <description>I&amp;rsquo;ll take a roasted oolong tea latte with boba, no sugar and less ice, please.
-Site generated with Hugo using theme Terminal by panr .</description>
+Site generated with Hugo based on theme Terminal by panr .</description>
       <content>&lt;p&gt;I&amp;rsquo;ll take a roasted oolong tea latte with boba, no sugar and less ice, please.&lt;/p&gt;
 &lt;p&gt;Site generated with 
 &lt;a href=https://gohugo.io/
     
     target=_blank rel=&#34;noopener noreferrer&#34;
 &gt;Hugo&lt;/a&gt;
- using theme 
+ based on theme 
 &lt;a href=https://themes.gohugo.io/themes/hugo-theme-terminal
     
     target=_blank rel=&#34;noopener noreferrer&#34;
