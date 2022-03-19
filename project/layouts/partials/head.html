@@ -7,18 +7,12 @@
 
 {{ template "_internal/google_analytics.html" . }}
 
-<!-- Theme CSS -->
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}">
-{{ if (isset .Params "color") }}
-  <link rel="stylesheet" href="{{ (printf "assets/%s.css" .Params.color) | absURL }}">
-{{ else if and (ne $.Site.Params.ThemeColor "orange") (ne $.Site.Params.ThemeColor "color" "") }}
-  <link rel="stylesheet" href="{{ (printf "assets/%s.css" $.Site.Params.ThemeColor) | absURL }}">
-{{ end }}
+{{ $css := resources.Get "css/main.css" }}
+{{ $options := dict "config" "postcss.config.js" "inlineImports" "true" }}
+{{ $style := $css | resources.PostCSS $options }}
 
-<!-- Custom CSS to override theme properties (/static/style.css) -->
-{{ if (fileExists "static/css/style.css") -}}
-  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-{{- end }}
+<!-- Theme CSS -->
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 <!-- Icons -->
 <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon-192x192.png" | absURL }}">
