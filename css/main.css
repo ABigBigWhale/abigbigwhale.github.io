@@ -140,6 +140,14 @@ ul {
 }
   }
 
+hr {
+  width: 100%;
+  border: none;
+  background: rgba(255, 255, 255, .1);
+  background: var(--border-color);
+  height: 1px;
+}
+
 /* variants */
 
 /* sizes */
@@ -307,7 +315,7 @@ ul {
 
 .logo {
   display: flex;
-  font-size: 2rem;
+  flex-direction: column;
   font-weight: 800;
   align-items: center;
   text-decoration: none;
@@ -315,8 +323,19 @@ ul {
   background: var(--color);
   color: black;
   color: var(--background);
-  padding: 12px 12px;
+  padding: 6px 14px;
 }
+
+.logo__hat {
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--background);
+  }
+
+.logo__text {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
 
 .pagination {
   margin-top: 50px;

@@ -55,7 +55,8 @@ publishDir = "../"
   # TocTitle = "Table of Contents" # default
 
   [params.logo]
-    logoText = "皓|hào"
+    logoHat = "hào"
+    logoText = "皓"
 
   [params.twitter]
     # set Twitter handles for Twitter cards
