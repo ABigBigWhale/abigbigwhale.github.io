@@ -12,7 +12,7 @@
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
 
   @media print {
@@ -39,12 +39,20 @@
   .menu {
     --shadow-color: color-mod(var(--background) a(80%));
     --shadow: 0 10px var(--shadow-color), -10px 10px var(--shadow-color), 10px 10px var(--shadow-color);
-    margin: 20px 1px;
+    margin: 0 0 0 32px;
+    height: 110px;
+    width: 100%;
 
     &__inner {
       display: flex;
+      flex-basis: 0;
+      flex-direction: column;
       flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start;
       list-style: none;
+      height: 100%;
       margin: 0;
       padding: 0;
 

@@ -140,14 +140,6 @@ ul {
 }
   }
 
-hr {
-  width: 100%;
-  border: none;
-  background: rgba(255, 255, 255, .1);
-  background: var(--border-color);
-  height: 1px;
-}
-
 /* variants */
 
 /* sizes */
@@ -238,7 +230,7 @@ hr {
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
 }
 
@@ -269,13 +261,21 @@ hr {
 .header .menu {
     --shadow-color: rgba(0, 0, 0, 0.8);
     --shadow: 0 10px var(--shadow-color), -10px 10px var(--shadow-color), 10px 10px var(--shadow-color);
-    margin: 20px 1px;
+    margin: 0 0 0 32px;
+    height: 110px;
+    width: 100%;
   }
 
 .header .menu__inner {
       display: flex;
+      flex-basis: 0;
+      flex-direction: column;
       flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start;
       list-style: none;
+      height: 100%;
       margin: 0;
       padding: 0;
     }
