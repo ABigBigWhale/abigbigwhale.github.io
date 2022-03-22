@@ -41,32 +41,12 @@
     --shadow: 0 10px var(--shadow-color), -10px 10px var(--shadow-color), 10px 10px var(--shadow-color);
     margin: 20px 1px;
 
-    @media (--phone) {
-      @mixin menu;
-      top: 50px;
-      right: 0;
-    }
-
     &__inner {
       display: flex;
       flex-wrap: wrap;
       list-style: none;
       margin: 0;
       padding: 0;
-
-      &--desktop {
-        @media (--phone) {
-          display: none;
-        }
-      }
-
-      &--mobile {
-        display: none;
-
-        @media (--phone) {
-          display: block;
-        }
-      }
 
       li {
         &:not(:last-of-type) {
@@ -80,17 +60,6 @@
             background: var(--foreground);
             color: var(--background);
           }
-        }
-      }
-
-      @media (--phone) {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
-
-        li {
-          margin: 0;
-          padding: 5px;
         }
       }
     }

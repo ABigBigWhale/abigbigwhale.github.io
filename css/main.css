@@ -264,42 +264,6 @@ ul {
     margin: 20px 1px;
   }
 
-@media (max-width: 684px) {
-
-.header .menu {
-      position: absolute;
-      background: black;
-      background: var(--background);
-      box-shadow: var(--shadow);
-      color: white;
-      border: 2px solid;
-      margin: 0;
-      padding: 10px;
-      list-style: none;
-      z-index: 99;
-      top: 50px;
-      right: 0
-  }
-    }
-
-@media (--phone) {
-
-.header .menu {
-      position: absolute;
-      background: black;
-      background: var(--background);
-      box-shadow: var(--shadow);
-      color: white;
-      border: 2px solid;
-      margin: 0;
-      padding: 10px;
-      list-style: none;
-      z-index: 99;
-      top: 50px;
-      right: 0
-  }
-    }
-
 .header .menu__inner {
       display: flex;
       flex-wrap: wrap;
@@ -307,38 +271,6 @@ ul {
       margin: 0;
       padding: 0;
     }
-
-@media (max-width: 684px) {
-
-.header .menu__inner--desktop {
-          display: none
-      }
-        }
-
-@media (--phone) {
-
-.header .menu__inner--desktop {
-          display: none
-      }
-        }
-
-.header .menu__inner--mobile {
-        display: none;
-      }
-
-@media (max-width: 684px) {
-
-.header .menu__inner--mobile {
-          display: block
-      }
-        }
-
-@media (--phone) {
-
-.header .menu__inner--mobile {
-          display: block
-      }
-        }
 
 .header .menu__inner li:not(:last-of-type) {
           margin-right: 20px;
@@ -352,34 +284,6 @@ ul {
             color: black;
             color: var(--background);
           }
-
-@media (max-width: 684px) {
-
-.header .menu__inner {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0
-    }
-
-        .header .menu__inner li {
-          margin: 0;
-          padding: 5px;
-        }
-      }
-
-@media (--phone) {
-
-.header .menu__inner {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0
-    }
-
-        .header .menu__inner li {
-          margin: 0;
-          padding: 5px;
-        }
-      }
 
 @font-face {
   font-display: swap;
