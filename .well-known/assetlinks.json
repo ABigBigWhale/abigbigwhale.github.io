@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.haoliu.pawz",
+      "sha256_cert_fingerprints": [
+        "81:86:66:A0:AC:55:9F:66:67:99:ED:0C:4D:EC:DD:EF:62:12:4C:CD:28:3C:9C:2A:7F:EC:15:E2:8F:DB:D5:D9"
+      ]
+    }
+  }
+]
