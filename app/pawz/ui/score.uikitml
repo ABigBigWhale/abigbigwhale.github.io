@@ -1,0 +1,56 @@
+<style>
+  .panel {
+    flex-direction: column;
+    align-items: center;
+    width: 360;
+    padding-top: 18;
+    padding-right: 22;
+    padding-bottom: 18;
+    padding-left: 22;
+    background-color: #263339;
+    border-color: #f2c46d;
+    border-width: 2;
+    border-radius: 18;
+  }
+  .title {
+    color: #ffd777;
+    font-size: 18;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .score {
+    color: #fff7df;
+    font-size: 32;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 7;
+  }
+  .details {
+    color: #d8e2df;
+    font-size: 16;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-top: 5;
+  }
+  .status {
+    color: #ffb89e;
+    font-size: 15;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 8;
+  }
+  .popup {
+    color: #ffffff;
+    font-size: 38;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-top: 10;
+  }
+</style>
+<div class="panel">
+  <div class="title">POUNCE PRACTICE</div>
+  <div id="score" class="score">HITS 0</div>
+  <div id="combo" class="details">COMBO 0 / BEST 0</div>
+  <div id="status" class="status">SWAT THE POM-POM!</div>
+  <div id="popup" class="popup"></div>
+</div>

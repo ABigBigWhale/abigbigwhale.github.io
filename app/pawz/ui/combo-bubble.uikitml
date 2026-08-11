@@ -1,0 +1,21 @@
+<style>
+  .bubble {
+    align-items: center;
+    justify-content: center;
+    width: 190;
+    height: 105;
+    background-color: #fff7df;
+    border-color: #ff8b5c;
+    border-width: 7;
+    border-radius: 48;
+  }
+  .text {
+    color: #6b2d22;
+    font-size: 46;
+    font-weight: 700;
+    line-height: 1;
+  }
+</style>
+<div class="bubble">
+  <div id="combo-hit" class="text">x1</div>
+</div>

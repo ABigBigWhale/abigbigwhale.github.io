@@ -1,0 +1,149 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "player": {
+    "transform": { "position": [0, -1.28, 0] }
+  },
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "sky": [0.12, 0.2, 0.24, 1],
+      "equator": [0.64, 0.55, 0.45, 1],
+      "ground": [0.18, 0.12, 0.1, 1],
+      "intensity": 0.8
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "sky": [0.78, 0.84, 0.86, 1],
+      "equator": [0.72, 0.61, 0.49, 1],
+      "ground": [0.36, 0.24, 0.18, 1],
+      "intensity": 1.1
+    }
+  },
+  "resources": {},
+  "nodes": [
+    {
+      "id": "floor",
+      "name": "Floor",
+      "framingRole": "support",
+      "content": { "type": "asset", "asset": "floor", "receiveShadow": true },
+      "transform": { "position": [0, -0.05, -0.8] },
+      "components": {
+        "PhysicsBody": { "state": "STATIC" },
+        "PhysicsShape": { "shape": "Box", "dimensions": [5, 0.1, 5], "friction": 0.8 }
+      }
+    },
+    {
+      "id": "room-shell",
+      "name": "Room Shell",
+      "framingRole": "support",
+      "content": { "type": "asset", "asset": "room-shell", "receiveShadow": true },
+      "components": {}
+    },
+    {
+      "id": "owner",
+      "name": "Human Owner, 1.72m",
+      "content": { "type": "asset", "asset": "owner", "castShadow": true },
+      "transform": { "position": [0, 0, -0.85], "rotationDeg": [0, 0, 0] },
+      "components": {}
+    },
+    {
+      "id": "toy",
+      "name": "Tethered Pom-pom",
+      "content": { "type": "asset", "asset": "toy-ball", "castShadow": true },
+      "transform": { "position": [0, 0.52, -0.2] },
+      "components": {
+        "Toy": {
+          "home": [0, 0.52, -0.2],
+          "radius": 0.06,
+          "restLength": 0.49,
+          "velocity": [0, 0, 0],
+          "active": false,
+          "idleTime": 0
+        },
+        "AudioSource": {
+          "src": "./audio/chime.mp3",
+          "maxInstances": 4,
+          "playbackMode": "fade-restart"
+        }
+      }
+    },
+    {
+      "id": "owner-wand",
+      "name": "Owner Wand",
+      "content": { "type": "asset", "asset": "owner-wand", "castShadow": true },
+      "transform": { "position": [0.12, 0.94, -0.41], "rotationDeg": [0, 0, 0] },
+      "components": {}
+    },
+    {
+      "id": "score-panel",
+      "name": "Score Panel",
+      "content": { "type": "asset", "asset": "score-panel" },
+      "transform": { "position": [-0.7, 1.35, -2.3], "scale": 0.15 },
+      "components": {}
+    },
+    {
+      "id": "combo-bubble",
+      "name": "Combo Hit Bubble",
+      "content": { "type": "asset", "asset": "combo-bubble" },
+      "transform": { "position": [0, 0.68, -0.2], "scale": 0.1 },
+      "components": {}
+    },
+    {
+      "id": "key-light",
+      "name": "Warm Key Light",
+      "content": { "type": "group" },
+      "transform": { "position": [-1.6, 3, 0.5], "rotationDeg": [-38, -24, 0] },
+      "components": {
+        "DirectionalLight": { "color": [1, 0.87, 0.68, 1], "intensity": 2.2, "castShadow": true }
+      }
+    },
+    {
+      "id": "game-state",
+      "name": "Game State",
+      "content": { "type": "group" },
+      "components": {
+        "GameState": {
+          "score": 0,
+          "combo": 0,
+          "bestCombo": 0,
+          "secondsSinceHit": 0
+        }
+      }
+    }
+  ],
+  "authoring": {
+    "views": [
+      {
+        "id": "hero",
+        "role": "hero",
+        "projection": "perspective",
+        "position": [0, 0.32, 1.15],
+        "target": [0, 0.58, -0.7],
+        "fov": 58
+      },
+      {
+        "id": "top",
+        "role": "diagnostic",
+        "projection": "orthographic",
+        "position": [0, 5, -0.8],
+        "target": [0, 0.6, -0.8],
+        "height": 4
+      },
+      {
+        "id": "quarter",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [2.4, 1.5, 1.2],
+        "target": [0, 0.7, -0.7],
+        "fov": 52
+      },
+      {
+        "id": "player-spawn",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [0, 0.32, 0],
+        "target": [0, 0.55, -0.72],
+        "fov": 72
+      }
+    ]
+  }
+}
